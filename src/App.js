@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { API } from 'aws-amplify';
+import Amplify from 'aws-amplify';
+import awsconfig from './aws-exports';
 
+
+Amplify.configure(awsconfig);
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -14,7 +17,7 @@ function App() {
     setError(null);
 
     try {
-      const response = await API.post('myapi', '/prompt', {
+      const response = await Amplify.post('api1cce71f3', '/prompt', {
         body: {
           prompt: "Hello"
         }
