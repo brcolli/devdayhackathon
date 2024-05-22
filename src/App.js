@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Amplify from 'aws-amplify';
-import awsconfig from './src/aws-exports.js';
+import { Amplify } from 'aws-amplify';
+import awsmobile from './aws-exports.js';
 
 
-Amplify.configure(awsconfig);
+Amplify.configure(awsmobile);
 
 function App() {
   const [loading, setLoading] = useState(false);
