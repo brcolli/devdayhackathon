@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Amplify from 'aws-amplify';
-import awsconfig from './src//aws-exports.js';
+import awsconfig from './src/aws-exports.js';
 
 
 Amplify.configure(awsconfig);
