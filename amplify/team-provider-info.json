@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-devdayhackathon-dev-52a1e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::730335405664:role/amplify-devdayhackathon-dev-52a1e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::730335405664:role/amplify-devdayhackathon-dev-52a1e-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-devdayhackathon-dev-52a1e-deployment",
+      "UnauthRoleName": "amplify-devdayhackathon-dev-52a1e-unauthRole",
+      "StackName": "amplify-devdayhackathon-dev-52a1e",
+      "StackId": "arn:aws:cloudformation:us-west-2:730335405664:stack/amplify-devdayhackathon-dev-52a1e/94ad8350-1859-11ef-a0cf-060cbdd3698b",
+      "AmplifyAppId": "d2fopv9k09yy6w"
+    },
+    "categories": {
+      "function": {
+        "devdayhackathon14ac39e2": {
+          "deploymentBucketName": "amplify-devdayhackathon-dev-52a1e-deployment",
+          "s3Key": "amplify-builds/devdayhackathon14ac39e2-70347070547573376357-build.zip"
+        }
+      },
+      "api": {
+        "api1cce71f3": {}
+      }
+    }
+  }
+}

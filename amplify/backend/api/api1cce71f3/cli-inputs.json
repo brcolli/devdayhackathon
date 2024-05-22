@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/data": {
+      "name": "/data",
+      "lambdaFunction": "devdayhackathon14ac39e2",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api1cce71f3": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "devdayhackathon14ac39e2"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "devdayhackathon14ac39e2": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_devdayhackathon14ac39e2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "devdayhackathon14ac39e2"
+        }
+      ]
+    },
+    "AMPLIFY_function_devdayhackathon14ac39e2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "devdayhackathon14ac39e2"
+        }
+      ]
+    }
+  }
+}
